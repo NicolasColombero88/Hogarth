@@ -1,0 +1,123 @@
+/* DYNAMIC CONTROLS */
+
+:root {
+    --dividerDesk: 2;
+    --dividerTab: 2;
+    --dividerMob: 1;
+  }
+
+
+/* HERO SECTION */
+
+.multiHeros {
+    width: 100%;
+    overflow: hidden;
+    color: #fff;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.multiHero-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2
+}
+
+
+/* DESKTOP STYLES */
+
+.multiHero{
+    width: calc(100% / var(--dividerDesk));
+    overflow: hidden;
+    color: #fff;
+    position: relative;
+}
+.multiHero-image {
+    width: 100%;
+    height: 960px;
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.multiHero-unit-final-frontier .multiHero-image {
+    background-image: url(/images/final-frontier_large.jpg)
+}
+.multiHero-unit-moon-exploration .multiHero-image {
+    background-image: url(/images/luna_large.jpg)
+}
+
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
+    .multiHero-unit-final-frontier .multiHero-image {
+        background-image: url(/images/final-frontier_large_2x.jpg)
+    }
+    .multiHero-unit-moon-exploration .multiHero-image {
+        background-image: url(/images/luna_large_2x.jpg)
+    }
+}
+
+
+/* TABLET STYLES */
+
+@media only screen and (max-width:1068px) {
+    .multiHero{
+        width: calc(100% / var(--dividerTab));
+    }
+    .multiHero-image {
+        height: 712px;
+    }
+    .multiHero-unit-final-frontier .multiHero-image {
+        background-image: url(/images/final-frontier_medium.jpg)
+    }
+    .multiHero-unit-moon-exploration .multiHero-image {
+        background-image: url(/images/luna_medium.jpg)
+    }
+}
+@media only screen and (max-width:1068px) and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px) and (min-resolution:1.5dppx),
+only screen and (max-width:1068px) and (min-resolution:144dpi) {
+    .multiHero-unit-final-frontier .multiHero-image {
+        background-image: url(/images/final-frontier_medium_2x.jpg)
+    }
+
+    .multiHero-unit-moon-exploration .multiHero-image {
+        background-image: url(/images/luna_medium_2x.jpg)
+    }
+}
+
+
+/* MOBILE STYLES */
+
+@media only screen and (max-width:735px) {
+    .multiHero{
+        width: calc(100% / var(--dividerMob));
+    }
+    .multiHero-image{
+        height: 490px;
+    }
+    .multiHero-unit-final-frontier .multiHero-image {
+        background-image: url(/images/final-frontier_small.jpg)
+    }
+    .multiHero-unit-moon-exploration .multiHero-image {    
+        background-image: url(/images/luna_small.jpg)
+    }
+}
+@media only screen and (max-width:735px) and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:735px) and (min-resolution:1.5dppx),
+only screen and (max-width:735px) and (min-resolution:144dpi) {
+    .multiHero-unit-final-frontier .multiHero-image {
+        background-image: url(/images/final-frontier_small_2x.jpg)
+    }
+    .multiHero-unit-moon-exploration .multiHero-image {
+        background-image: url(/images/luna_small_2x.jpg)
+    }
+}

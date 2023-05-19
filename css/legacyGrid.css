@@ -1,0 +1,81 @@
+
+
+/* Comment and uncomment the codes, to see both ways */
+
+
+
+
+/* OPTION 1 -- FLEX METHOD */
+
+/*
+
+.gallery-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.grid-third{
+    width: calc(100% / 3);
+}
+
+.grid-two-third{
+    width: calc(100% / 3 * 2);
+}
+
+.grid-half{
+    width: calc(100% / 2);
+}
+
+
+
+@media only screen and (max-width: 736px){
+    .gallery-grid {
+        flex-direction: column;
+    }
+    .gallery-photo{
+        width: 100%;
+    }
+} 
+
+*/
+
+
+
+
+/* OPTION 2 -- FLOAT METHOD */
+
+
+.gallery-grid {
+    display: block;
+}
+
+.grid-left{
+    position: relative;
+    float: left;
+}
+
+.grid-right{
+    position: relative;
+    float: right;
+}
+
+.grid-third{
+    width: calc(100% / 3);
+}
+
+.grid-two-third{
+    width: calc(100% / 3 * 2);
+}
+
+.grid-half{
+    width: calc(100% / 2);
+}
+
+
+
+@media only screen and (max-width: 736px){
+    .gallery-photo{
+        width: 100%;
+    }
+}
