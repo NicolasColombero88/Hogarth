@@ -28,7 +28,6 @@ And with the dynamic controls (*customHero.css*), the distribution can be set pe
   }
   ```
 
-
 # Response Documentation: Exercise 2
 ## Fix the order of the timeline.
 
