@@ -1,7 +1,5 @@
 # HOGARTH - FRONT END TEST 
-## NICOLÁS COLOMBERO
----
-## Response Documentation
+## NICOLÁS COLOMBERO - Response Documentation
 
 ### Exercise 1: Add a new hero section.
 
