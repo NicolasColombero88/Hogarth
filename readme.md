@@ -5,6 +5,7 @@ For this exercise, I approached it from the scalability perspective. By using cu
 
 By simply adhering to the following module:
 
+```html
 <div class="multiHero">
   <figure class="multiHero-image"></figure>
   <div class="hero-copy">
@@ -14,17 +15,18 @@ By simply adhering to the following module:
    <!-- LINK -->
    <a class="multiHero-link" href="http://space.com/"></a>
 </div>
-
+```
 
 The hero section can be distributed *N* number of times.
 And with the dynamic controls (*customHero.css*), the distribution can be set per line in a responsive manner (Desktop, Tablet, Mobile).
 
-
+```css
 :root {
   --dividerDesk: 2;
   --dividerTab: 2;
   --dividerMob: 1;
   }
+  ```
 
 
 # Exercise 2
