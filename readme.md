@@ -1,5 +1,4 @@
 # HOGARTH - FRONT END TEST 
-===
 ## NICOLÁS COLOMBERO
 ---
 ## Response Documentation
