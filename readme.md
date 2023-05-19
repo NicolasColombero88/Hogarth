@@ -1,6 +1,8 @@
 # HOGARTH - FRONT END TEST 
 ## NICOLÁS COLOMBERO - Response Documentation
-
+  
+  
+  
 ### Exercise 1: Add a new hero section.
 
 For this exercise, I approached it from the scalability perspective. By using custom variables and the CSS calculation method, I established a dynamic control that facilitates the division based on the number of heroes to be presented.
