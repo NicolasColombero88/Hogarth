@@ -66,9 +66,10 @@ In this exercise, the goal was to achieve a mosaic effect with vertical adjustme
 
 In this exercise, I accepted the suggestion to maintain alignment using *float* or *flex*.  
 To view one option or the other, it's a matter of commenting out the piece of code that we don't want to display (*legacyGrid.css*). These sections are clearly divided by descriptive comments.  
-It is worth clarifying that although the elements inside the grid continue to be called by media queries with grid attributes, these have no effect because in both cases the *display* of the container is no longer a grid, but a block or flex.
+To solve this exercise I did not create any new class. I just gave new values to already existing classes from a new CSS sheet.  
+It is worth clarifying that although the elements inside the grid continue to be called by media queries with grid attributes, these have no effect because in both cases the *display* of the container is no longer a grid, but a flex or block.
 
-With *Flex*:
+With *Flex* :
 
 ```css
 /* OPTION 1 -- FLEX METHOD */
@@ -79,7 +80,7 @@ With *Flex*:
     flex-wrap: wrap;
 }
 ```
-With *Float*:
+With *Float* :
 
 ```css
 /* OPTION 2 -- FLOAT METHOD */
