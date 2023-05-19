@@ -31,11 +31,11 @@ And with the dynamic controls (*customHero.css*), the distribution can be set pe
 # Response Documentation: Exercise 2
 ## Fix the order of the timeline.
 
-In this exercise, the goal was to achieve a mosaic effect with vertical adjustment and proper implementation of responsive design using CSS. It proved to be challenging. To be honest, it is the aspect I paid the most attention to. After struggling for a while with *flex* and *grid*, I gave up and took the path of creating two HTMLs to achieve the responsive vision. The visibility is determined by the classes .desktop and .mobile.
+In this exercise, the goal was to achieve a mosaic effect with vertical adjustment and proper implementation of responsive design using CSS. It proved to be challenging. To be honest, it is the aspect I paid the most attention to. After struggling for a while with *flex* and *grid*, I gave up and took the path of creating two HTMLs to achieve the responsive vision. The visibility is determined by the classes .desktop and .mobile. (*customTimeline.css*)
 
 # Response Documentation: Exercise 3
 ## Support the gallery on older browsers.
 
 In this exercise, I accepted the suggestion to maintain alignment using *float* and *flex*.
 
-To view one option or the other, it's a matter of commenting out the piece of code that we don't want to display. These sections are clearly divided by descriptive comments.
+To view one option or the other, it's a matter of commenting out the piece of code that we don't want to display (*legacyGrid.css*). These sections are clearly divided by descriptive comments.
