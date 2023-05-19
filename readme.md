@@ -37,7 +37,29 @@ And with the dynamic controls (*customHero.css*), the distribution can be set pe
 ### Exercise 2: Fix the order of the timeline.
 
 In this exercise, the goal was to achieve a mosaic effect with vertical adjustment and proper implementation of responsive design, using only CSS. It proved to be challenging. To be honest, it is the aspect I paid the most attention to. After struggling for a while with *flex* and *grid*, I gave up and took the path of creating two HTMLs to achieve the responsive vision. The visibility is determined by the classes .desktop and .mobile. (*customTimeline.css*)
-  
+
+```html
+<section class="timeline">
+        <div class="container">
+            <div class="row">
+                <div class="timeline-container col-12">
+                    <h2 class='section-headline'>The Timeline</h2>
+                </div>
+            </div>
+            <!-- DESKTOP VERSION START-->
+            <div class="row desktop">
+                ...
+            </div>
+            <!-- DESKTOP VERSION END-->
+
+            <!-- MOBILE VERSION START-->
+            <div class="row mobile">
+                ...
+            </div>
+            <!-- MOBILE VERSION END-->
+        </div>
+    </section>
+  ```
 - - -
   
 ### Exercise 3: Support the gallery on older browsers.
